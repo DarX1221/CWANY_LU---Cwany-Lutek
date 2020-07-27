@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        int t = scan.nextInt();
+        int t = scan.nextInt();     // liczba testow
 
         for (int i = 0; i < t; i++) {
             int n = scan.nextInt();
@@ -27,7 +27,7 @@ public class Main {
         }
     }
 
-    public static long Lagrange(int n) {
+    public static long Lagrange(int n) {        // Twierdzenie Lagrange'a
         long wykladnik = 0;
         long w = 2;
 
